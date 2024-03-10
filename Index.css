@@ -34,7 +34,7 @@ h2 {
     background-color: #c27914; 
     width: 50%;
     height: 50%;
-    overflow-y: scroll; /* Add this line to enable vertical scrollbar */
+    overflow-y: scroll; 
     scroll-behavior: smooth;
     scrollbar-color: transparent transparent;
     scrollbar-width: thin;
