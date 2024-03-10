@@ -1,6 +1,8 @@
     const addButton = document.getElementById('button');
     const inputField = document.getElementById('input');
     const container = document.querySelector('.container');
+    const addedTask = document.querySelector('.addedTask');
+    
     let count=0;
     
     
@@ -38,6 +40,7 @@
                 const taskToRemove = clickedButton.parentElement;
                 taskToRemove.remove();
                 count--;
+                countIn.textContent=`${count} Task Added`;
             });
 
             
@@ -46,19 +49,29 @@
                 if (isScaled) {
                     newDiv.style.transform = "scale(1)";
                     newDiv.style.backgroundColor="rgb(203, 226, 233)";
+                    
 
                 } else {
                     newDiv.style.transform = "scale(1.05)";
                     newDiv.style.backgroundColor="#ECF87F";
+                  
                     
                 }
 
                 isScaled = !isScaled;
             });
+
+            countIn.textContent=`${count} Task Added`;
             
             
         }
     });
+
+
+    const countIn=document.createElement("div");
+    countIn.className="countIn";
+    countIn.textContent=`${count} Task Added`;
+    addedTask.appendChild(countIn);
     
 
  

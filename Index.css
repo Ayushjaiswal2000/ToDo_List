@@ -116,14 +116,29 @@ h2 {
     background-color: #c0392b;
 }
 
-.count{
+.addedTask{
     width: 50%;
     height: 50px;
    
     margin-top: 10px;
     border-radius: 10px;
-    background-color: #078e85; 
-    box-shadow: 0 2px 10px #078e85;
+    background-color: #c27914; 
+    box-shadow: 0 2px 10px #c27914;
+}
+
+.countIn {
+    background-color: #267bb8;
+    width: 20%; 
+    height: 80%;
+    color: white; 
+   
+    margin-top: 5px;
+    margin-left: 5px; 
+    border-radius: 5px; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
