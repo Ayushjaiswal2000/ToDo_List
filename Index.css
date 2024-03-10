@@ -30,7 +30,7 @@ h2 {
 
 .container {
   
-    background-color: #078e85; 
+    background-color: #c27914; 
     width: 50%;
     height: 50%;
     overflow-y: scroll; /* Add this line to enable vertical scrollbar */
@@ -95,7 +95,10 @@ h2 {
     width: 72%;
     height: 30px;
     margin-left: 37px;
+    transition: all .3s  ease-in-out;
 }
+
+
 
 .remove {
     background-color: #e74c3c;
@@ -112,6 +115,17 @@ h2 {
 .remove:hover {
     background-color: #c0392b;
 }
+
+.count{
+    width: 50%;
+    height: 50px;
+   
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #078e85; 
+    box-shadow: 0 2px 10px #078e85;
+}
+
 
 
 
