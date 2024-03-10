@@ -27,10 +27,16 @@
             removeBtn.className = "remove";
             removeBtn.textContent = "Remove";
             removeBtn.style.marginLeft="auto";
+
+            const tick=document.createElement("img");
+            tick.src="Images/noun-double-tick-3968145.png";
+            tick.style.display="none";
+            tick.style.marginLeft="auto";
     
             newDiv.appendChild(circle);
             newDiv.appendChild(textContent);
             newDiv.appendChild(removeBtn);
+            newDiv.appendChild(tick);
     
             container.appendChild(newDiv);
             inputField.value = '';
@@ -44,21 +50,26 @@
             });
 
             
-            let isScaled = false;
+            let isScaled = true;
             newDiv.addEventListener("click", () => {
+                isScaled = !isScaled;
                 if (isScaled) {
                     newDiv.style.transform = "scale(1)";
                     newDiv.style.backgroundColor="rgb(203, 226, 233)";
+                    removeBtn.style.display="block";
+                    tick.style.display="none";
                     
 
                 } else {
                     newDiv.style.transform = "scale(1.05)";
                     newDiv.style.backgroundColor="#ECF87F";
+                    removeBtn.style.display="none";
+                    tick.style.display="block";
                   
                     
                 }
 
-                isScaled = !isScaled;
+                
             });
 
             countIn.textContent=`${count} Task Added`;
