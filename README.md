@@ -4,6 +4,7 @@ ToDo List Web App
 
 This is a simple ToDo list web application built using HTML, CSS, and JavaScript. It allows users to add tasks, mark them as complete, and remove them from the list.
 
+
 Features:
 Add Task: Enter a task in the input field and click the "ADD" button to add it to the list.
 Remove Task: Each task has a "Remove" button to delete it from the list.
