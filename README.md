@@ -28,3 +28,8 @@ Contributions are welcome! If you have any suggestions or want to report issues,
 
 
 Enjoy organizing your tasks with this simple ToDo list app!
+
+
+Sample Images
+![image](https://github.com/Ayushjaiswal2000/ToDo_List/assets/86403516/24a02617-5a8c-48e3-b2b9-bb4463722b69)
+
